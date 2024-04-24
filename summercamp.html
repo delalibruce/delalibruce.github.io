@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Website Title</title>
+  <style>
+    body {
+      margin: 75px 300px 50px 200px; /* top right bottom left */
+      font-family: Arial, sans-serif;
+    }
+
+    #container {
+      display: flex;
+    }
+
+    #tableOfContents {
+      position: fixed;
+      top: 300;
+      left: 400;
+      width: 200px; /* Adjust the width as needed */
+
+      padding: 20px;
+      text-align: right; /* Align text to the right */
+    }
+    #tableOfContents ul {
+      padding: 0; /* Remove default padding for the list */
+      list-style: none; /* Remove default list styles */
+    }
+
+    #tableOfContents li {
+      margin-bottom: 0.1em; /* Add space between list items */
+    }
+
+    #content {
+      margin-left: 300px; /* Adjust the margin to leave space for the table of contents */
+      padding: 20px;
+    }
+
+    #gallery {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+
+    .gallery-image {
+      width: 30%;
+      margin-bottom: 10px;
+      height: auto; /* Maintain the aspect ratio of the image */
+      object-fit: cover; /* Ensure the image covers the entire container */
+      border-radius: 5px;
+    }
+
+    .text-container {
+      margin-top: 20px;
+    }
+
+    .text-container h2 {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<div id="container">
+  <div id="tableOfContents">
+    <ul>
+      <li><a href="index.html">me</a></li>
+      <li><a href="work.html">work</a></li>
+      <li><a href="play.html">play</a></li>
+      <li><a href="bookshelf.html">bookshelf</a></li>
+      <li><a href="contact.html">contact</a></li>
+    </ul>
+  </div>
+
+  <div id="content">
+    <h1>summercamp</h1>
+    <p><i>hosting a no-tech retreat focused on bonding and childhood nostalgia for Stanford founders + builders</i></p>
+
+    <!-- Gallery Section -->
+    <div id="gallery">
+      <img src="https://pbs.twimg.com/media/GAn2EfabIAE3mbA?format=jpg&name=small" alt="Gallery Image 1" class="gallery-image">
+      <img src="https://pbs.twimg.com/media/GAn3bw4agAA8u7b?format=jpg&name=large" alt="Gallery Image 2" class="gallery-image">
+      <img src="https://pbs.twimg.com/media/GAn2EfabMAA20b8?format=jpg&name=small" alt="Gallery Image 3" class="gallery-image">
+    </div>
+
+    <!-- Text Container Section -->
+    <div class="text-container">
+      
+      <h2>Design Challenge</h2>
+      <p>in many ways, this project is an extension of <a href="hottakes.html">hot takes</a>. most retreats for founders and builders are designed to provide space for intense, focused work. rana, <a href="https://twitter.com/mollycantillon"target="_blank">molly</a>, and i wanted to experiment to see if we could design something that was instead wholly focused on forming authentic connections between young student founders and builders.
+</p>
+
+      <h2>Solution</h2>
+      <p>a no-tech retreat for Stanford student founders focused on bonding and childhood nostalgia.</p>
+
+      <h2>Details</h2>
+      <p>as with our hot takes event, we designed every aspect of this retreat with intentionality towards our design vision. read more about it <a href="https://x.com/ranabanankhah/status/1732187592849084861?s=20"target="_blank">here</a>. stay tuned for more retreats like this!
+</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
