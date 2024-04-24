@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Website Title</title>
+  <style>
+    body {
+      margin: 75px 300px 50px 200px;
+      /* top right bottom left */
+      font-family: Arial, sans-serif;
+    }
+
+    #container {
+      display: flex;
+    }
+
+    #tableOfContents {
+      position: fixed;
+      top: 300;
+      left: 400;
+      width: 200px;
+      /* Adjust the width as needed */
+
+      padding: 20px;
+      text-align: right;
+      /* Align text to the right */
+    }
+
+    #tableOfContents ul {
+      padding: 0;
+      /* Remove default padding for the list */
+      list-style: none;
+      /* Remove default list styles */
+    }
+
+    #tableOfContents li {
+      margin-bottom: 0.1em;
+      /* Add space between list items */
+    }
+
+    #content {
+      margin-left: 300px;
+      /* Adjust the margin to leave space for the table of contents */
+      padding: 20px;
+    }
+
+    .text-container {
+      margin-top: 20px;
+    }
+
+    .text-container h2 {
+      margin-bottom: 10px;
+    }
+
+    /* Added style for the iframe */
+    .ytShort {
+      width: 100%;
+      height: 400px;
+      /* Adjust the height as needed */
+      margin-top: 20px;
+      /* Add margin to separate the videos */
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="container">
+    <div id="tableOfContents">
+      <ul>
+        <li><a href="index.html">me</a></li>
+        <li><a href="work.html">work</a></li>
+        <li><a href="play.html">play</a></li>
+        <li><a href="bookshelf.html">bookshelf</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+    </div>
+
+    <div id="content">
+      <h1>yt shorts</h1>
+
+      <!-- Text Container Section -->
+      <div class="text-container">
+        <p><b><i>my creative process</i></b></p>
+        <p>editing my <a href="gapyeardiaries">gap year diaries</a> was a laborious process, each video taking 20+ hours
+          to finish. the desire to craft all of the footage into a coherent and compelling story would often lead to a
+          crippling creative block.<br><br> recently, i've been creating these short videos to capture the spirit behind
+          my travels and adventures with friends. with these, the pressure is off and i get to exercise my creative
+          muscle! win win. </p>
+        <p><b>tools: </b>final cut pro x</p>
+      </div>
+
+      <!-- YouTube Short Embed 1 -->
+      <div class="ytShort">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/3hg1e_dQlcY" title="YouTube video player"
+          frameborder="0" allowfullscreen></iframe>
+      </div>
+
+      <!-- YouTube Short Embed 2 -->
+      <div class="ytShort">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/-MeU3w7y_m0" title="YouTube video player"
+          frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
