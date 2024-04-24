@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0.5">
+  <title>Your Website Title</title>
+  <style>
+    body {
+      margin: 50px 100px 50px 100px;
+      font-family: 'Arial', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    #container {
+      width: 100%;
+      max-width: 800px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+    }
+
+    #tableOfContents {
+      width: 30%;
+      padding: 20px;
+      text-align: right;
+      margin-left: -80px;
+    }
+
+    #tableOfContents ul {
+      padding: 0;
+      list-style: none;
+    }
+
+    #content {
+      width: 100%;
+      max-width: 800px;
+      padding: 20px;
+      box-sizing: border-box;
+      margin-left: 20px;
+    }
+
+    .book {
+      margin-bottom: 2em;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .book img {
+      height: auto;
+      width: 100%;
+      max-width: 400px;
+      max-height: 200px;
+      border-radius: 5px;
+      margin-bottom: 1em;
+      object-fit: cover;
+    }
+
+    .book-info {
+      width: 100%;
+    }
+
+    .book h3 {
+      margin-top: 0;
+    }
+
+    .book p {
+      margin-top: -0.5em;
+      margin-bottom: 1em;
+      color: #ccc;
+    }
+
+    @media only screen and (min-width: 600px) {
+      body {
+        margin: 50px 100px 50px 100px;
+      }
+
+      #container {
+        flex-direction: row;
+        justify-content: flex-start;
+      }
+
+      #tableOfContents {
+        width: 30%;
+        text-align: right;
+        margin-left: -80px;
+      }
+
+      #content {
+        margin-left: 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="container">
+    <div id="tableOfContents">
+      <ul>
+        <li><a href="index.html">me</a></li>
+        <li><a href="work.html">work</a></li>
+        <li><a href="play.html">play</a></li>
+        <li><a href="bookshelf.html">bookshelf</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+    </div>
+
+    <div id="content">
+      <h1>work 👩🏾‍🌾 🙃</h1>
+      <p>laser focused on experience design.<br><br></p>
+
+      <!-- Book 2 -->
+      <div class="book">
+        <img src="https://pbs.twimg.com/media/F-hghLmbQAA72s8?format=jpg&name=900x900" alt="Book 2 Cover">
+        <div class="book-info">
+          <h3>on call cafe</h3>
+          <p>TLDR; cafe director for a fully functioning, completely student-run, late-nite cafe at Stanford</p>
+          <p><a href="oncallcafe.html">see more</a> 👀</p>
+        </div>
+      </div>
+
+      <!-- Book 1 -->
+      <div class="book">
+        <img src="https://pbs.twimg.com/media/F-3A__WaIAAgRTh?format=jpg&name=medium" alt="Book 1 Cover">
+        <div class="book-info">
+          <h3>hot takes</h3>
+          <p>TLDR; my friend and I hacked traditional tech "networking" events at Stanford to foster organic connection.</p>
+          <p><a href="hottakes.html">see more</a> 👀</p>
+        </div>
+      </div>
+
+      <!-- Book 3 -->
+      <div class="book">
+        <img src="https://pbs.twimg.com/media/GAn2EfZb0AAMR1N?format=jpg&name=small" alt="Book 3 Cover">
+        <div class="book-info">
+          <h3>summercamp</h3>
+          <p>TLDR; hosted a no-tech retreat focused on bonding and childhood nostalgia.</p>
+          <p><a href="summercamp.html">see more</a> 👀</p>
+        </div>
+      </div>
+
+      <p><br><br>prev: research + early stage startups. <br><br></p>
+      <div class="book">
+        <img src="https://pbs.twimg.com/media/FPl7q2ZXoAEQluI?format=jpg&name=medium" alt="Book 3 Cover">
+        <div class="book-info">
+          <h3>global health research @ Trinity College </h3>
+          <p>TLDR; co-authored umbrella review on the extent of youth involvement in health research.</p>
+        </div>
+      </div>
+
+      <div class="book">
+        <img src="https://media.licdn.com/dms/image/C560BAQE4V9BTZeuOuQ/company-logo_200_200/0/1630573934636/ascend_finance_llc_logo?e=2147483647&v=beta&t=tlkgw69xsK7Xa0F_2qzPy7mBkf8iHwtn3j7crRlpJWY" alt="Book 3 Cover">
+        <div class="book-info">
+          <h3>ascend finance</h3>
+          <p>TLDR; led SEO + digital marketing for an early-stage fintech startup.</p>
+        </div>
+      </div>
+
+      <div class="book">
+        <img src="https://media.licdn.com/dms/image/D560BAQEzFofHtVKlKQ/company-logo_200_200/0/1695918227428/2sigma_school_logo?e=2147483647&v=beta&t=GXTklv3o0QHFx3IlA0xXpRBQpgA-OurH2cXyoLUJZsA" alt="Book 3 Cover">
+        <div class="book-info">
+          <h3>sales development @ 2sigma school (edtech)</h3>
+          <p>TLDR; worked on sales strategy, sales research to generate leads for target schools nationally, converting leads to adopt 2Sigma computer science curriculum</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>
