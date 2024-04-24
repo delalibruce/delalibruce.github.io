@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0.5">
+  <title>Your Website Title</title>
+  <style>
+    body {
+      margin: 75px 300px 50px 200px;
+      /* top right bottom left */
+      font-family: Arial, sans-serif;
+
+    }
+
+    #container {
+      display: flex;
+    }
+
+    #tableOfContents {
+      position: fixed;
+      top: 300;
+      left: 400;
+      width: 200px;
+      /* Adjust the width as needed */
+
+      padding: 20px;
+      text-align: right;
+      /* Align text to the right */
+    }
+
+    #tableOfContents ul {
+      padding: 0;
+      /* Remove default padding for the list */
+      list-style: none;
+      /* Remove default list styles */
+    }
+
+    #tableOfContents li {
+      margin-bottom: 0.1em;
+      /* Add space between list items */
+    }
+
+    #content {
+      margin-left: 300px;
+      /* Adjust the margin to leave space for the table of contents */
+      padding: 20px;
+      color: black;
+    }
+
+    #textContainer {
+      width: 40%;
+      /* Adjust the width for the text container */
+      margin-top: 1.6em;
+      margin-bottom: 0.9em;
+      margin-left: 0em;
+      /* Adjust the left margin for the text container */
+      color: black;
+      /* Add white text color for better visibility */
+    }
+
+    .book {
+      margin-bottom: 2em;
+      color: black;
+    }
+
+    .book img {
+      width: 30%;
+      /* Make the image width 100% of the container */
+      height: auto;
+      /* Maintain the aspect ratio of the image */
+      border-radius: 5px;
+      /* Add a border-radius for rounded corners */
+    }
+
+    .book p {
+      margin-top: 0.5em;
+      color: #ccc;
+      /* Light gray color for the description text */
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="container">
+    <div id="tableOfContents">
+      <ul>
+        <li><a href="index.html">me</a></li>
+        <li><a href="work.html">work</a></li>
+        <li><a href="play.html">play</a></li>
+        <li><a href="bookshelf.html">bookshelf</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+    </div>
+
+    <div id="content">
+      <h1>delali's bookshelf 📚 👀</h1>
+      <p>ranking is based off how distraught i was when the book ended </p>
+      <p>hot take: the end of a good book is a form of grief</p>
+      <p><i>*fyi i basically only read memoirs*</i></p>
+
+
+      <!-- Book 1 -->
+      <div class="book">
+        <img src="https://i.pinimg.com/originals/5c/6c/e9/5c6ce9a61dee4fed0f001491f427c462.png">
+        <h3>The Promise by Chaim Potok</h3>
+        <p>sequel to the chosen. phenomenal book, potok is so skilled at grappeling with how one reconciles one's
+          various conflicting identities. it's gripping and profound. </p>
+      </div>
+
+      <div class="book">
+        <img src="https://m.media-amazon.com/images/I/71mJDR87X8L._AC_UF1000,1000_QL80_.jpg">
+        <h3>The Art of Gathering by Priya Parker</h3>
+        <p>THIS BOOK. it's truly been my north star for every gathering and event i've hosted since. If you've ever
+          wondered what makes a good gathering, party, wedding, funeral - this is for you. </p>
+      </div>
+
+      <div class="book">
+        <img src="https://lewsbookreviews.com/wp-content/uploads/2023/03/chosen.jpg">
+        <h3>The Chosen by Chaim Potok</h3>
+        <p>if you couldn't tell already, i reallyyy love potok. the relationship between these two main characters and
+          their respective identities. a must-read. </p>
+      </div>
+
+      <div class="book">
+        <img src="https://prodimage.images-bn.com/pimages/9781501135927_p0_v4_s1200x630.jpg">
+        <h3>Shoe Dog by Phil Knight</h3>
+        <p>funny story. wasn't into it at first, read the end, flipped to the beginning and finished the rest shortly
+          after. phenomenal founders story. recommend!!</p>
+      </div>
+
+      <div class="book">
+        <img src="https://static01.nyt.com/images/2015/07/10/arts/10BOOK/10BOOK-superJumbo-v2.jpg">
+        <h3>Between the World and Me by Ta-Nehisi Coates</h3>
+        <p>beautiful, honest, really worth reading. </p>
+      </div>
+      <!-- Book 2 -->
+      <div class="book">
+        <img
+          src="data:image/jpeg;base64,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">
+        <h3>Biased by Jennifer Eberhardt</h3>
+        <p>the topics in this book are so eye-opening. but what really makes it special is how incredible of a
+          storyteller Eberhardt is, like truly it's on another level so much so that it's worth reading for that reason
+          alone. </p>
+      </div>
+
+      <div class="book">
+        <img src="https://static01.nyt.com/images/2019/09/04/books/04bookgladwell1/04bookgladwell1-superJumbo.jpg"
+          alt="Book 2 Cover">
+        <h3>Talking to Strangers by Malcolm Gladwell</h3>
+        <p>mr malcolm gladwell, the revisionist history legend himself. you cannot lie, my mans is an incredible
+          journalist and storyteller. i am overdue to reread this book. certain anecdotes in the book felt irrelevant to
+          topic at hand but that's just my opinion.</p>
+      </div>
+
+      <div class="book">
+        <img
+          src="https://static01.nyt.com/images/2018/08/26/arts/26BRENNAN-JOBS-book-silo/merlin_142633185_b52877ce-ad18-4a01-8480-dce50eb41543-articleLarge.jpg?quality=75&auto=webp&disable=upscale">
+        <h3>Small Fry by Lisa Brennan Jobs</h3>
+        <p>crazy memoir. really interesting life experience and perspective on steve jobs as a person and father. </p>
+      </div>
+
+
+      <div class="book">
+        <img src="https://m.media-amazon.com/images/I/8188jpenx5L._AC_UF894,1000_QL80_.jpg" alt="Book 2 Cover">
+        <h3>The Death of Ivan Ilyich by Leo Tolstoy</h3>
+        <p>this book sold me on russian literature.</p>
+      </div>
+
+      <div class="book">
+        <img
+          src="https://static01.nyt.com/images/2017/09/30/arts/30bookcoates1/30bookcoates1-articleInline.jpg?quality=75&auto=webp&disable=upscale">
+
+        <h3>We Were Eight Years in Power by Ta-Nehisi Coates</h3>
+        <p>collection of essays. between the world and me is a more personal, reflection and look into the black
+          american experience.</p>
+      </div>
+      <div class="book">
+        <img src="https://buybook.ba/img//upload/images/A%20Promised%20Land.jpg" alt="Book 2 Cover">
+        <h3>Promised Land by Barack Obama</h3>
+        <p>Haha read this book during my 75Hard, probably the only reason i finished it tbh. felt like most of the book
+          was an elaborate justifaction for the controversial decisions he made while in office.</p>
+      </div>
+      <div class="book">
+        <img
+          src="https://static01.nyt.com/images/2020/02/18/books/19bookhong1/19bookhong1-articleLarge.jpg?quality=75&auto=webp&disable=upscale">
+        <h3>Minor Feelings by Cathy Park Hong</h3>
+        <p>heavy on the memoir, less on educational perspective (re asian american identity) if that makes sense. felt
+          very personal to hong.</p>
+      </div>
+      <!-- Add more books as needed -->
+      <!-- Book 3 -->
+      <div class="book">
+        <img src="https://static01.nyt.com/images/2020/01/01/books/31bookwiener1/31bookwiener1-superJumbo.jpg">
+        <h3>Uncanny Valley by Anna Wierner</h3>
+        <p>i've always been super fascinated by silicon valley culture. i think this book does an ok job at conveying
+          this.</p>
+      </div>
+
+      <div class="book">
+        <img
+          src="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/KBISAWUAZQI6VBGCA6JNQWIZCE.jpg&w=210">
+        <h3>My Wife Said You May Want to Marry Me by Jason Rosenthal</h3>
+        <p>2018 new york times article turned into a memoir with the same title. tragic story.</p>
+      </div>
+      <div class="book">
+        <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1601937850l/54814676.jpg">
+        <h3>Crying in H Mart by Michelle Zauner</h3>
+        <p>okay memoir-wise. felt a bit dragged on towards the end. lots to reflect on in terms of mother/daughter
+          relationships.</p>
+      </div>
+
+      <div class="book">
+        <img src="https://static01.nyt.com/images/2014/04/01/arts/booklewis/booklewis-superJumbo-v2.jpg">
+        <h3>Flash Boys by Michael Lewis</h3>
+        <p>it's been awhile since i read this but i remember slugging through it.</p>
+      </div>
+
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+
+</html>
