@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Website Title</title>
+  <style>
+    body {
+      margin: 75px 300px 50px 200px; /* top right bottom left */
+      font-family: Arial, sans-serif;
+    }
+
+    #container {
+      display: flex;
+    }
+
+    #tableOfContents {
+      position: fixed;
+      top: 300;
+      left: 400;
+      width: 200px; /* Adjust the width as needed */
+
+      padding: 20px;
+      text-align: right; /* Align text to the right */
+    }
+    #tableOfContents ul {
+      padding: 0; /* Remove default padding for the list */
+      list-style: none; /* Remove default list styles */
+    }
+
+    #tableOfContents li {
+      margin-bottom: 0.1em; /* Add space between list items */
+    }
+
+    #content {
+      margin-left: 300px; /* Adjust the margin to leave space for the table of contents */
+      padding: 20px;
+    }
+
+    #gallery {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+
+    .gallery-image {
+      width: 30%;
+      margin-bottom: 10px;
+      height: auto; /* Maintain the aspect ratio of the image */
+      border-radius: 5px;
+      object-fit: cover; /* Ensure the image covers the entire container */
+    }
+
+    .text-container {
+      margin-top: 20px;
+    }
+
+    .text-container h2 {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<div id="container">
+  <div id="tableOfContents">
+    <ul>
+      <li><a href="index.html">me</a></li>
+      <li><a href="work.html">work</a></li>
+      <li><a href="play.html">play</a></li>
+      <li><a href="bookshelf.html">bookshelf</a></li>
+      <li><a href="contact.html">contact</a></li>
+    </ul>
+  </div>
+
+  <div id="content">
+    <h1>hot takes</h1>
+    <p><i>how a friend and i hacked traditional tech "networking" events at Stanford to foster organic connection</i></p>
+    <!-- Gallery Section -->
+    <div id="gallery">
+      <img src="https://pbs.twimg.com/media/F9f2DsfaIAIr8bs?format=jpg&name=large" alt="Gallery Image 1" class="gallery-image">
+      <img src="https://pbs.twimg.com/media/Fqzi6GPaQAA29uJ?format=jpg&name=large" alt="Gallery Image 2" class="gallery-image">
+      <img src="https://pbs.twimg.com/media/F9f2HUQbYAA78hE?format=jpg&name=large" alt="Gallery Image 3" class="gallery-image">
+    </div>
+
+    <!-- Text Container Section -->
+    <div class="text-container">
+      
+      <h2>Design Challenge</h2>
+      <p>throughout freshman year, i attended countless tech and entrepreneurship events both at stanford and within the greater bay area. my friend, <a href="https://twitter.com/ranabanankhah"target="_blank">rana</a>, and i noticed an unfortunate unifying theme with these events: they kind of suck.<br><br> why? 1) they are extremely diluted, meaning it is hard to find people who are actually working on meaningful projects. 2) there is a huge lack of avenues to authentic conversations with strangers.  </p>
+
+      <h2>Solution</h2>
+      <p>rana and i set off to experiment with how we could change that with Hot Takes: a non-traditional gathering or people in the tech space. the tagline was simple (and intentionally cheeky, more on that below): hot people, hot food, hot takes. 
+</p>
+
+      <h2>Details</h2>
+            <p>we designed every aspect of this event with intentionality towards our design vision. here are a couple ways we achieved this: <br><br>
+              1. in order to boost organic convo, the barrier has to be extremely low. we achieved this by spinning the function of the traditional name tag. at hot takes, no names—you are your hot take. with this, you could go up to anyone and strike up a convo.<br><br>
+              2. the strength of the hot takes theme is that it forces everyone into contrarian thinking + passionate debate/discourse. so instead of cookie-cutter convos like "what are you building?", it is more "wait, you never hire a google engineer?? i disagree, tell me more."<br><br>
+              3. finally, a major weakness of most tech mixers is that people take themselves way too seriously (too much performative signaling, not enough authenticity). to encourage ppl to let their guards down, we scattered satirical/humorous details throughout the space.<br>
+              <h2>Results </h2>
+                    <p>we hosted our first hot takes event in march 2023. the concept and event was so well-loved that due to popular demand, we hosted a second hot takes in october 2023 which had over 100+ attendees. <br><br> we were backed financially by cory levy (z fellows)!
+              </p>
+
+      <h2>My Role</h2>
+      <p>the event concept and tagline is something that popped into my head one night when i was pondering about how we could solve this design challenge. from there, rana and i workshopped it it and collaborated throughout. we advertised/marketed the event directly to our peers at stanford and silicon valley. other minor elements: organized catering, facilitated event details (name tags, signs, etc).
+
+      </p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
